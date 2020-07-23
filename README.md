@@ -14,8 +14,7 @@
                         Stage of development
 
                     ```curl --location --request GET 'http://localhost:3008/search?productCategory=DNA-based
-                    &developer=abc&stageOfDevelopment=abc' \
-                        --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImVtYWlsIjoiZW1haWwxMTExMXExIiwiaWQiOjF9LCJpYXQiOjE1OTQ4MzYxNzgsImV4cCI6MTU5NTE5NjE3OH0.v5g7BaZpyT7hUyhyV3O7aD_vbBdBHiN6wvpNCvmjoms'```
+                    &developer=abc&stageOfDevelopment=abc'```
 
             API to upload a new CSV file which would update the content of the vaccine development status in the backend.
             * PUT
@@ -23,6 +22,5 @@
                         API to upload a new CSV file which would update the content of the vaccine development status in the backend and change last updated status as well.
                         
                     ```curl --location --request PUT 'http://localhost:3008/update' \
-                        --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImVtYWlsIjoiZW1haWwxMTExMXExIiwiaWQiOjF9LCJpYXQiOjE1OTQ4MzYxNzgsImV4cCI6MTU5NTE5NjE3OH0.v5g7BaZpyT7hUyhyV3O7aD_vbBdBHiN6wvpNCvmjoms' \
-                        --form 'sheet=@/home/springrole/Downloads/UpdateCOVID-19 Tracker-Vaccines - COVID-19 Tracker-Vaccines.csv'```
+                    --form 'sheet=@/home/springrole/Downloads/UpdateCOVID-19 Tracker-Vaccines - COVID-19 Tracker-Vaccines.csv'```
 
